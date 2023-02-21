@@ -168,6 +168,7 @@ function shuffleArray(array) {
         adultPairs.push({ giver, recipient });
       } else {
         throw new Error("Could not find eligible recipient for remaining givers");
+          alert ("Pairing didn't work this time - refresh and try again!"
       }
     }
   
