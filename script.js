@@ -222,6 +222,3 @@ coveredRecipients.forEach(recipient => {
 });
 
 
-document.getElementById("gen-button").addEventListener("click", function () {
-  window.location.reload();
-})
