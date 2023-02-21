@@ -220,3 +220,8 @@ coveredRecipients.forEach(recipient => {
     }, 3000);
   });
 });
+
+
+document.getElementById("gen-button").addEventListener("click", function () {
+  window.location.reload();
+})
