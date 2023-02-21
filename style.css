@@ -2,11 +2,13 @@
     color: transparent;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
     cursor: pointer;
+    
   }
 
 h1 {
     text-align:center;
-    margin-bottom:20px;
+    margin-bottom:30px;
+    font-size:35px
     
 }
 
@@ -29,8 +31,15 @@ h1 {
     font-family: 'Indie Flower', cursive;
     font-size:18px;
     list-style-type: none;
-    margin-top:5px;   
+      
     line-height:35px;
 
 
+}
+
+.navbar {
+    width:100%;
+    background-color:#0ccff1e8;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
