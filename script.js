@@ -167,7 +167,7 @@ function shuffleArray(array) {
       if (recipient) {
         adultPairs.push({ giver, recipient });
       } else {
-          alert ("Pairing didn't work this time - refresh and try again!")
+          alert ("Couldn't find an eligible recipient for the remaining givers - refresh and try again!")
         throw new Error("Could not find eligible recipient for remaining givers");
           
       }
@@ -190,7 +190,7 @@ function shuffleArray(array) {
       if (recipient) {
         childPairs.push({ giver, recipient });
       } else {
-          alert ("Pairing didn't work this time - refresh and try again!")
+          alert ("Couldn't find an eligible recipient for the remaining givers - refresh and try again!")
         throw new Error("Could not find eligible recipient for remaining givers");
           
       }
