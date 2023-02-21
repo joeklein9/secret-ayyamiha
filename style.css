@@ -6,6 +6,8 @@
 
 h1 {
     text-align:center;
+    margin-bottom:20px;
+    
 }
 
 
@@ -26,4 +28,8 @@ h1 {
 #results-container {
     font-family: 'Indie Flower', cursive;
     font-size:20px;
+    list-style-type: none;
+    margin-top:5px;   
+
+
 }
