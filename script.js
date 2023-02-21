@@ -200,7 +200,7 @@ function shuffleArray(array) {
     const pairs = adultPairs.concat(childPairs);
 
     pairs.forEach(pair => {
-        document.getElementById("results-container").innerHTML += `<li>${pair.giver.name} will give a gift to <span class="covered">${pair.recipient.name}</span> 🎁 `;
+        document.getElementById("results-container").innerHTML += `<li>🎁${pair.giver.name} will give a gift to <span class="covered">${pair.recipient.name}</span>`;
       });
   
     return pairs;
