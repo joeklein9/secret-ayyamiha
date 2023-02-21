@@ -196,7 +196,7 @@ function shuffleArray(array) {
     const pairs = adultPairs.concat(childPairs);
 
     pairs.forEach(pair => {
-        document.getElementById("results-container").textContent += `${pair.giver.name} will give a gift to ${pair.recipient.name}///`;
+        document.getElementById("results-container").innerHTML += `${pair.giver.name} will give a gift to <span class="covered">${pair.recipient.name}</span> 🎁 `;
       });
   
     return pairs;
@@ -204,3 +204,15 @@ function shuffleArray(array) {
   }
 
   pairPeople(people)
+
+
+const coveredRecipients = document.querySelectorAll(".covered");
+
+coveredRecipients.forEach(recipient => {
+  recipient.addEventListener("click", () => {
+    recipient.classList.remove("covered");
+    setTimeout(function () {
+      recipient.classList.add("covered");
+    }, 3000);
+  });
+});

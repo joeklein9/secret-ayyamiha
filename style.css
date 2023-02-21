@@ -1,0 +1,23 @@
+.covered {
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+  }
+
+h1 {
+    text-align:center;
+}
+
+
+.container {
+    display:flex;
+    flex-direction:column;
+    font-family: 'Indie Flower', cursive;
+
+
+}
+
+#results-container {
+    font-family: 'Indie Flower', cursive;
+    font-size:20px;
+}
