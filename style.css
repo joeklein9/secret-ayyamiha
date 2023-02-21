@@ -19,8 +19,8 @@ h1 {
     justify-content:center;
     align-items:center;
     font-family: 'Indie Flower', cursive;
-    background-color: #1bbad67f;
-    color:black;
+    background-color: #486581;
+    color:white;
     max-width:900px
     
 
@@ -39,7 +39,7 @@ h1 {
 
 .navbar {
     width:100%;
-    background-color:#0ccff1e8;
+    background-color:#102a43;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
