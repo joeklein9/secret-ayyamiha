@@ -208,7 +208,6 @@ function shuffleArray(array) {
   }
 
   pairPeople(people)
-  console.log(pairPeople(people))
 
 
 const coveredRecipients = document.querySelectorAll(".covered");
