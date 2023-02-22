@@ -218,8 +218,7 @@ coveredRecipients.forEach(recipient => {
     recipient.classList.remove("covered");
     setTimeout(function () {
       recipient.classList.add("covered");
-    }, 10000);
+    }, 3000);
   });
 });
-
 
